@@ -43,7 +43,7 @@ function HomePage() {
           <div className="relative w-48 h-48 mx-auto mb-8">
             <div className="absolute inset-0 bg-gradient-to-br from-red-500 to-red-900 rounded-full blur-md transform -rotate-6"></div>
             <img
-              src="src/profile_pic.jpg"
+              src="icon/profile_pic.jpg"
               alt="Profile picture"
               className="relative w-full h-full object-cover rounded-full border-4 border-red-500 transform transition-transform duration-300 hover:scale-105"
             />
@@ -213,61 +213,58 @@ function ExperiencePage() {
       <section className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          {/* Java Chat Application */}
+          {/* SkillSahyog */}
           <div className="bg-gradient-to-br from-black to-red-950 rounded-lg p-6 hover:from-red-950 hover:to-black transition-all duration-300 border border-red-900">
             <Code2 className="w-10 h-10 text-red-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Java Chat Application</h3>
+            <h3 className="text-xl font-semibold mb-2">SkillSahyog</h3>
             <p className="text-gray-300 mb-4">
-            A server client chatting program in Java. A server-client chat program using
- Swing for GUI and sockets for network communication. Two components client and server with real time
- messaging with connection management which appropriate status message displayed and also error handling is
- implemented. Technologies- Swing,sockets,threads.
+              Full-stack web platform for peer-to-peer skill exchange using OTP-based login,
+              AI skill matching, real-time chat, feedback, and admin moderation.
+              Built with Django, WebSockets, and PostgreSQL.
             </p>
-            <a href="https://github.com/Cyb3r3x3r/Chatgram" className="text-red-500 hover:text-red-400 flex items-center gap-2">
+            <a href="https://github.com/Cyb3r3x3r/skillsahyog" className="text-red-500 hover:text-red-400 flex items-center gap-2">
               <Github size={20} />
               View on GitHub
             </a>
           </div>
 
-          {/* Cybdecode */}
+          {/* Cybscan */}
           <div className="bg-gradient-to-br from-black to-red-950 rounded-lg p-6 hover:from-red-950 hover:to-black transition-all duration-300 border border-red-900">
             <Code2 className="w-10 h-10 text-red-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Cybdecode</h3>
+            <h3 className="text-xl font-semibold mb-2">Cybscan</h3>
             <p className="text-gray-300 mb-4">
-            A simple command line encryption and decryption tool which used basic character shifting
-            (similar to caesar cipher). Technologies- Python,colorama library,ASCII manipulation,File handling.
+              Command-line WordPress vulnerability scanner with multithreading, plugin/theme detection,
+              WPVulnDB integration, user enumeration, honeypot checks, and internal link crawling.
             </p>
-            <a href="https://github.com/Cyb3r3x3r/Cybdecode" className="text-red-500 hover:text-red-400 flex items-center gap-2">
+            <a href="https://github.com/Cyb3r3x3r/cybscan" className="text-red-500 hover:text-red-400 flex items-center gap-2">
               <Github size={20} />
               View on GitHub
             </a>
           </div>
 
-          {/* Tic Tac Toe AI */}
+          {/* Sentiment Analysis Microservice */}
           <div className="bg-gradient-to-br from-black to-red-950 rounded-lg p-6 hover:from-red-950 hover:to-black transition-all duration-300 border border-red-900">
             <Code2 className="w-10 h-10 text-red-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Tic Tac Toe AI</h3>
+            <h3 className="text-xl font-semibold mb-2">Sentiment Analysis Microservice</h3>
             <p className="text-gray-300 mb-4">
-            A simple implementation of a Tic Tac Toe game that allows a player to compete against
- an AI opponent. Used minimax algorithm and has easy,medium and hard mode. Uses Python’s capabilities to
- manage game state, user input, and game logic, making it a great example of a simple yet functional game
- application
+              End-to-end microservice with a FastAPI backend, React frontend, and Docker Compose setup
+              for sentiment prediction using Hugging Face transformers. Includes live inference and fine-tuning support.
             </p>
-            <a href="https://github.com/Cyb3r3x3r/TicTacToe" className="text-red-500 hover:text-red-400 flex items-center gap-2">
+            <a href="https://github.com/Cyb3r3x3r/sentiment-predictor" className="text-red-500 hover:text-red-400 flex items-center gap-2">
               <Github size={20} />
               View on GitHub
             </a>
           </div>
 
-          {/* Hotel FAQ Bot */}
+          {/* Personalized Learning Chatbot */}
           <div className="bg-gradient-to-br from-black to-red-950 rounded-lg p-6 hover:from-red-950 hover:to-black transition-all duration-300 border border-red-900">
             <Code2 className="w-10 h-10 text-red-500 mb-4" />
-            <h3 className="text-xl font-semibold mb-2">Hotel FAQ Bot</h3>
+            <h3 className="text-xl font-semibold mb-2">Personalized Learning Chatbot</h3>
             <p className="text-gray-300 mb-4">
-            A faqbot made in rasa for hotel customers. It uses NLU techniques with intents and user
-            stories to answer the faqs of users. Technologies- Python Rasa
+              Rasa-based chatbot with Streamlit UI to suggest learning resources and explain concepts
+              using Flan-T5 model. Built during Infosys Springboard Internship 5.0.
             </p>
-            <a href="https://github.com/Cyb3r3x3r/Hotel-FAQbot" className="text-red-500 hover:text-red-400 flex items-center gap-2">
+            <a href="https://github.com/your-username/personalized-learning-chatbot" className="text-red-500 hover:text-red-400 flex items-center gap-2">
               <Github size={20} />
               View on GitHub
             </a>
@@ -278,9 +275,8 @@ function ExperiencePage() {
             <Code2 className="w-10 h-10 text-red-500 mb-4" />
             <h3 className="text-xl font-semibold mb-2">TodoWoo</h3>
             <p className="text-gray-300 mb-4">
-            A todo web application made in Python Django with features like user authentication,Creating a
- task,deleting a task,completing a task and marking a task as important. Technologies- Python
- Django,HTML,CSS,Sqlite3
+              A Django-based to-do manager with user authentication, task creation, completion,
+              and prioritization features. Designed for simplicity and functionality.
             </p>
             <a href="https://github.com/Cyb3r3x3r/TodoWoo" className="text-red-500 hover:text-red-400 flex items-center gap-2">
               <Github size={20} />
